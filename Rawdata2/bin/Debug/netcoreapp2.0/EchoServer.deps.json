@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v2.0": {
       "EchoServer/1.0.0": {
         "dependencies": {
+          "DomainModel": "1.0.0",
           "Newtonsoft.Json": "9.0.0.0"
         },
         "runtime": {
           "EchoServer.dll": {}
+        }
+      },
+      "DomainModel/1.0.0": {
+        "runtime": {
+          "DomainModel.dll": {}
         }
       },
       "Newtonsoft.Json/9.0.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "EchoServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DomainModel/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

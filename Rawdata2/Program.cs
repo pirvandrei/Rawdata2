@@ -86,7 +86,7 @@ namespace EchoServer
             var path = request.Path.Split('/');
             if (!String.IsNullOrEmpty(request.Path))
             {
-                result.Status += "4 missing path,";
+                result.Status += "4 missing resource,";
             }
             else if (request.Path.Contains(" ") || path.Length < 1 || path.Length > 2)
             {

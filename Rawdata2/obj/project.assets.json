@@ -196,6 +196,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "DomainModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/DomainModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DomainModel.dll": {}
+        }
       }
     }
   },
@@ -656,10 +666,16 @@
         "netstandard.library.2.0.0.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "DomainModel/1.0.0": {
+      "type": "project",
+      "path": "../DomainModel/DomainModel.csproj",
+      "msbuildProject": "../DomainModel/DomainModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "DomainModel >= 1.0.0",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
   },
@@ -670,9 +686,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guru\\Source\\Repos\\Rawdata2\\Rawdata2\\Rawdata2.csproj",
-      "projectName": "Rawdata2",
-      "projectPath": "C:\\Users\\guru\\Source\\Repos\\Rawdata2\\Rawdata2\\Rawdata2.csproj",
+      "projectUniqueName": "C:\\Users\\guru\\Source\\Repos\\Rawdata2\\Rawdata2\\EchoServer.csproj",
+      "projectName": "EchoServer",
+      "projectPath": "C:\\Users\\guru\\Source\\Repos\\Rawdata2\\Rawdata2\\EchoServer.csproj",
       "packagesPath": "C:\\Users\\guru\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\guru\\Source\\Repos\\Rawdata2\\Rawdata2\\obj\\",
       "projectStyle": "PackageReference",
@@ -692,7 +708,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\guru\\Source\\Repos\\Rawdata2\\DomainModel\\DomainModel.csproj": {
+              "projectPath": "C:\\Users\\guru\\Source\\Repos\\Rawdata2\\DomainModel\\DomainModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

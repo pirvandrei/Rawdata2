@@ -637,8 +637,8 @@ namespace Assignment3TestSuite
         public static Response ReadResponse(this TcpClient client)
         {
             var strm = client.GetStream();
-            strm.ReadTimeout = 250;
-            byte[] resp = new byte[5840];
+            strm.ReadTimeout = 10;
+            byte[] resp = new byte[1024];
             using (var memStream = new MemoryStream())
             {
                 int bytesread = 0;
@@ -647,7 +647,7 @@ namespace Assignment3TestSuite
                     bytesread = strm.Read(resp, 0, resp.Length);
                     memStream.Write(resp, 0, bytesread);
 
-                } while (bytesread == 5840);
+                } while (bytesread == 1024);
 
                 var responseData = Encoding.UTF8.GetString(memStream.ToArray());
                 return JsonConvert.DeserializeObject<Response>(responseData);
