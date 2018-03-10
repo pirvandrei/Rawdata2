@@ -1,0 +1,11 @@
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\Rawdata2.deps.json
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\Rawdata2.runtimeconfig.json
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\Rawdata2.runtimeconfig.dev.json
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\Rawdata2.dll
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\Rawdata2.pdb
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\Rawdata2.csprojResolveAssemblyReference.cache
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\Rawdata2.csproj.CoreCompileInputs.cache
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\Rawdata2.AssemblyInfoInputs.cache
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\Rawdata2.AssemblyInfo.cs
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\Rawdata2.dll
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\Rawdata2.pdb
