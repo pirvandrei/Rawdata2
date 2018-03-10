@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Assignmnet3Tests\Assignmnet3Tests.csproj" />
     <ProjectReference Include="..\DomainModel\DomainModel.csproj" />
   </ItemGroup>
 

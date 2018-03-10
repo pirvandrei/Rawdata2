@@ -1,58 +1,74 @@
 ﻿using DomainModel;
+using Assignment3Tests;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using Assignment3Tests;
 using System.Threading;
 
 namespace EchoServer
 {
-    public static class Program
+    public class Server
     {
 
         public static void Main(string[] args)
+        { 
+            Console.WriteLine("Getting started!");
+            new Server().NewServer(); 
+        }
+         
+        private TcpListener _server;
+         
+        public Server()
         {
-            var addr = IPAddress.Parse("127.0.0.1");
-            var server = new TcpListener(addr, 5000);
-
-            server.Start();
+            _server = new TcpListener(IPAddress.Loopback, 5000);
+        }
+         
+        public void NewServer()
+        { 
+            _server.Start();
             Console.WriteLine("Server started ...");
-
 
             while (true)
             {
-                var client = server.AcceptTcpClient();
-                Console.WriteLine("Client connected");
-                new Thread(() => ProcessData(client)).Start();
+                var client = _server.AcceptTcpClient();
 
+                Console.WriteLine("client accepted");
+                var thread = new Thread(NewClient);
+
+                thread.Start(client);
             }
+        }
+         
+        private void NewClient(object clientObject)
+        {
+            try
+            {
+                using (var client = clientObject as TcpClient)
+                {
+                    var strm = client.GetStream();
+                    var buffer = new byte[client.ReceiveBufferSize];
+                    var readCnt = strm.Read(buffer, 0, buffer.Length);
+                    var payload = Encoding.UTF8.GetString(buffer, 0, readCnt);
+                    var request = JsonConvert.DeserializeObject<Request>(payload);
+                    Console.WriteLine(request.Body);
+                    var res = Encoding.UTF8.GetBytes(GetStatus(request));
 
-            //server.Stop();
-
+                    strm.Write(res, 0, res.Length);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Something went wrong: " + e.Message + e.StackTrace);
+            }
         }
 
-        public static void ProcessData(TcpClient client)
+        public string GetStatus(Request request)
         {
-            var strm = client.GetStream();
-
-            var buffer = new byte[client.ReceiveBufferSize];
-            var readCnt = strm.Read(buffer, 0, buffer.Length);
-
-            var payload = Encoding.UTF8.GetString(buffer, 0, readCnt);
-            var request = JsonConvert.DeserializeObject<Request>(payload);
-
-            Console.WriteLine(request.Body);
-            Console.WriteLine("Soo far");
-            var res = Encoding.UTF8.GetBytes(GetStatus(request));
-
-            strm.Write(res, 0, res.Length);
-        }
-
-        public static string GetStatus(Request request)
-        {
-            var result = new Response();
+            var result = new DomainModel.Response();
 
 
             //check method
@@ -80,8 +96,7 @@ namespace EchoServer
                     result.Status += "4 illegal method";
                     break;
             }
-
-
+             
             // /[category]/[resource] 
             var path = request.Path.Split('/');
             if (!String.IsNullOrEmpty(request.Path))
@@ -99,17 +114,11 @@ namespace EchoServer
             else if (path.Length == 2 && String.IsNullOrEmpty(path[1]))
             {
                 result.Status = "2 ok,";
-            }
+            } 
+            return JsonConvert.SerializeObject(result, new JsonSerializerSettings { ContractResolver = new CamelCasePropertyNamesContractResolver() });
+             
+        } 
 
-
-            return ToJson(result);
-
-        }
-
-        public static string ToJson(this object data)
-        {
-            return JsonConvert.SerializeObject(data,
-            new JsonSerializerSettings { ContractResolver = new CamelCasePropertyNamesContractResolver() });
-        }
     }
+
 }
