@@ -1,0 +1,8 @@
+C:\Users\guru\Source\Repos\Rawdata2\DomainModel\bin\Debug\netcoreapp2.0\DomainModel.deps.json
+C:\Users\guru\Source\Repos\Rawdata2\DomainModel\bin\Debug\netcoreapp2.0\DomainModel.dll
+C:\Users\guru\Source\Repos\Rawdata2\DomainModel\bin\Debug\netcoreapp2.0\DomainModel.pdb
+C:\Users\guru\Source\Repos\Rawdata2\DomainModel\obj\Debug\netcoreapp2.0\DomainModel.csproj.CoreCompileInputs.cache
+C:\Users\guru\Source\Repos\Rawdata2\DomainModel\obj\Debug\netcoreapp2.0\DomainModel.AssemblyInfoInputs.cache
+C:\Users\guru\Source\Repos\Rawdata2\DomainModel\obj\Debug\netcoreapp2.0\DomainModel.AssemblyInfo.cs
+C:\Users\guru\Source\Repos\Rawdata2\DomainModel\obj\Debug\netcoreapp2.0\DomainModel.dll
+C:\Users\guru\Source\Repos\Rawdata2\DomainModel\obj\Debug\netcoreapp2.0\DomainModel.pdb

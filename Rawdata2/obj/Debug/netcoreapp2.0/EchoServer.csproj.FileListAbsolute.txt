@@ -1,0 +1,16 @@
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\EchoServer.csprojResolveAssemblyReference.cache
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\EchoServer.csproj.CoreCompileInputs.cache
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\EchoServer.AssemblyInfoInputs.cache
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\EchoServer.AssemblyInfo.cs
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\EchoServer.deps.json
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\EchoServer.runtimeconfig.json
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\EchoServer.runtimeconfig.dev.json
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\EchoServer.dll
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\EchoServer.pdb
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\DomainModel.dll
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\Newtonsoft.Json.dll
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\DomainModel.pdb
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\bin\Debug\netcoreapp2.0\Newtonsoft.Json.xml
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\EchoServer.csproj.CopyComplete
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\EchoServer.dll
+C:\Users\guru\Source\Repos\Rawdata2\Rawdata2\obj\Debug\netcoreapp2.0\EchoServer.pdb

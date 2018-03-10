@@ -1,0 +1,14 @@
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\bin\Debug\netcoreapp2.0\Assignmnet3Tests.deps.json
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\bin\Debug\netcoreapp2.0\Assignmnet3Tests.runtimeconfig.json
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\bin\Debug\netcoreapp2.0\Assignmnet3Tests.runtimeconfig.dev.json
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\bin\Debug\netcoreapp2.0\Assignmnet3Tests.dll
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\bin\Debug\netcoreapp2.0\Assignmnet3Tests.pdb
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\obj\Debug\netcoreapp2.0\Assignmnet3Tests.csprojResolveAssemblyReference.cache
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\obj\Debug\netcoreapp2.0\Assignmnet3Tests.csproj.CoreCompileInputs.cache
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\obj\Debug\netcoreapp2.0\Assignmnet3Tests.AssemblyInfoInputs.cache
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\obj\Debug\netcoreapp2.0\Assignmnet3Tests.AssemblyInfo.cs
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\obj\Debug\netcoreapp2.0\Assignmnet3Tests.dll
+C:\Users\guru\Source\Repos\Rawdata2\Assignmnet3Tests\obj\Debug\netcoreapp2.0\Assignmnet3Tests.pdb
